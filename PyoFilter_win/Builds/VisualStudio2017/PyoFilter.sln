@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyoFilter - VST", "PyoFilter_VST.vcxproj", "{BCE8DD88-54A5-ECC8-0880-64ACC876639E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE47DD11-0B93-9718-75C5-EDCE94066CAD} = {FE47DD11-0B93-9718-75C5-EDCE94066CAD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyoFilter - Shared Code", "PyoFilter_SharedCode.vcxproj", "{FE47DD11-0B93-9718-75C5-EDCE94066CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE8DD88-54A5-ECC8-0880-64ACC876639E}.Debug|Win32.Build.0 = Debug|Win32
+		{BCE8DD88-54A5-ECC8-0880-64ACC876639E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCE8DD88-54A5-ECC8-0880-64ACC876639E}.Release|Win32.Build.0 = Release|Win32
+		{BCE8DD88-54A5-ECC8-0880-64ACC876639E}.Release|Win32.ActiveCfg = Release|Win32
+		{FE47DD11-0B93-9718-75C5-EDCE94066CAD}.Debug|Win32.Build.0 = Debug|Win32
+		{FE47DD11-0B93-9718-75C5-EDCE94066CAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE47DD11-0B93-9718-75C5-EDCE94066CAD}.Release|Win32.Build.0 = Release|Win32
+		{FE47DD11-0B93-9718-75C5-EDCE94066CAD}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿  include_juce_audio_plugin_client_VST2.cpp
+     Creating library C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\x64\Release\VST\PyoFilter.lib and object C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\x64\Release\VST\PyoFilter.exp
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyEval_ReleaseThread
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyEval_AcquireLock
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyEval_ReleaseLock
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyInt_AsLong
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp__Py_NoneStruct
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_Py_InitializeEx
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyRun_SimpleStringFlags
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyImport_AddModule
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_Py_IsInitialized
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyObject_GetAttrString
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyEval_InitThreads
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyString_AsString
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyThreadState_Clear
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_Py_NewInterpreter
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyThreadState_Swap
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyEval_AcquireThread
+PyoFilter.lib(PyoClass.obj) : error LNK2001: unresolved external symbol __imp_PyThreadState_Delete
+C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\x64\Release\VST\\PyoFilter.dll : fatal error LNK1120: 17 unresolved externals

@@ -1,0 +1,5 @@
+﻿  include_juce_audio_plugin_client_VST2.cpp
+     Creating library C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\Win32\Debug\VST\PyoFilter.lib and object C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\Win32\Debug\VST\PyoFilter.exp
+  Generating code
+  Finished generating code
+  PyoFilter_VST.vcxproj -> C:\Users\Jeremy Van Buskirk\Desktop\PyoJuce\PyoFilter\Builds\VisualStudio2017\Win32\Debug\VST\PyoFilter.dll
