@@ -12,6 +12,6 @@ OSX
 - VST will build but fail to load into any host
 
 Win
--VST will build but fail to load into any host.
+- VST will build but fail to load into any host.
 
 
