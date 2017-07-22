@@ -29,10 +29,10 @@ http://www.redwoodaudio.net/Tutorials/juce_for_vst_development__intro3.html
 Known Issues
 
 OSX
-- Audio Units will build and load into Reaper and Logic but fail to load into Max, Juce Plugin Host,Tracktion.
-- VST will build but fail to load into any host
+- Audio Units will build and load into Reaper and Logic but fail to load into Max, Juce Plugin Host, and Tracktion.
+- VST will build but fails to load into any host
 
 Win
-- VST will build but fail to load into any host.
+- VST will build but fails to load into any host.
 
 
