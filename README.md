@@ -35,4 +35,11 @@ OSX
 Win
 - VST will build but fails to load into any host.
 
+Build Instructions
+- Install Pyo (ajaxsoundstudio.com/software/pyo/)
+- Install Juce (www.juce.com)
+- Include m_pyo.h, PyoClass.cpp, and PyoClass.h from the Pyo source code (github.com/belangeo/pyo/tree/master/embedded/)
+- Check the Python compiler and linker flags in the xcode setup.
+- Check the OSX SDK Version and Architecture
+
 
