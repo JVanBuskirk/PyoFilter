@@ -9,7 +9,8 @@
               pluginCode="Osz5" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
               pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
               pluginAUExportPrefix="PyoFilterAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.PyoFilter"
-              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.0.2">
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.2.0"
+              cppLanguageStandard="11" companyCopyright="">
   <MAINGROUP id="Nh813M" name="PyoFilter">
     <GROUP id="{990654E4-97FE-0A05-0DF1-01C36B7A32F4}" name="Source">
       <FILE id="z0LJfL" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -24,14 +25,16 @@
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX" extraCompilerFlags="-I/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7"
-               extraLinkerFlags="-L/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config -lpython2.7"
-               vst3Folder="">
+    <XCODE_MAC targetFolder="Builds/MacOSX" extraCompilerFlags="-I/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -fno-strict-aliasing -fno-common -dynamic -arch i386 -arch x86_64 -g -DNDEBUG -g -fwrapv -O3 -Wall "
+               extraLinkerFlags="-L/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config -lpython2.7 -ldl -framework CoreFoundation"
+               vst3Folder="" extraFrameworks="Python">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="PyoFilter"
-                       osxSDK="10.10 SDK" osxCompatibility="10.10 SDK" osxArchitecture="32BitUniversal"/>
+                       osxSDK="10.12 SDK" osxCompatibility="10.12 SDK" osxArchitecture="32BitUniversal"
+                       enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION name="Release" isDebug="1" optimisation="3" targetName="PyoFilter"
-                       osxSDK="10.10 SDK" osxCompatibility="10.10 SDK" osxArchitecture="32BitUniversal"/>
+                       osxSDK="10.12 SDK" osxCompatibility="10.12 SDK" osxArchitecture="32BitUniversal"
+                       enablePluginBinaryCopyStep="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="../../../../../../Applications/JUCE/modules"/>
